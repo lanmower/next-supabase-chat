@@ -8,7 +8,7 @@ const ChatHeader = () => {
 
     supabase.auth.signInWithOAuth({
       provider: "github",
-      options: { redirectTo: window.location.origin + "next-supabase-chat/auth/callback" },
+      options: { redirectTo: window.location.origin + "/next-supabase-chat/auth/callback" },
     });
   };
 
