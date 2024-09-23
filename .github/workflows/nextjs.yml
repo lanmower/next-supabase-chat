@@ -23,7 +23,9 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
+env:
+  NEXT_PUBLIC_SUPABASE_URL: "https://nxmqazntnbzpkhmzwmue.supabase.co"
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im54bXFhem50bmJ6cGtobXp3bXVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjY3MDE5OTMsImV4cCI6MjA0MjI3Nzk5M30.pRoc0HXveaYB0vHfUaIORWoRBVFCwnYiKvlTdOdp9Mw"
 jobs:
   # Build job
   build:
